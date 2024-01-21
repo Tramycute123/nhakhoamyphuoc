@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	font-family: 'Roboto', sans-serif; font-size: 16px; background-color: #E5E5E5; color: #474747
+}
+.top-bar{
+	width: 100%; height: 50px; line-height: 50px
+}
+.top-bar a {
+	color: white
+}
+.top-bar a:hover{
+	color: #FFE400
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6; color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-bottom: 0;padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+} 
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color:#FFC113; color: white
+}
+.under{
+	clear: both; width: 100%;height: 50px; background-color:#FFC113; line-height: 50px
+}
+
+main{
+	width: 100%;min-height:  300px
+}
+footer{
+	width: 100%; min-height: 300px; margin-bottom: 5px 
+}
+.box{
+	width: 100%; height: 300px
+}
+.row{
+	display: flex; flex-wrap: wrap
+}
+.gach-chan{
+	border-bottom: 2px solid #FAB400; 
+}
+footer ul{
+	padding: 0; margin: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li {
+	font-size: 13px; padding: 4.5px
+}
+footer ul li a{
+	text-decoration: none; color:white
+}
+.bo-gach a{
+	text-decoration: none; color: white; font-size: 13px
+}
+.bo-gach{
+	padding-top: 30px
+}
+.navbar-vav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+#service a{
+	text-decoration: none; color: #484848
+}
+#service a:hover{
+	color: #FFC113
+}
+.button{
+	margin-left: 380px
+}
+.map{
+	padding-top: 100px; margin-left: 500px
+}
+#why{
+	width: 100%; min-height: 400px; background: url("../images/why.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
+#client .hinh{
+	widows: 100%; min-height: 300px;position: relative
+}
+#client .truoc{
+	position: absolute; left:0; top:0; padding: 6px; background-color:rgba(222,222,222,0.8); color: rgba(129,129,129,1.00)
+}
+#client .sau{
+	position: absolute; left:50%; top:0; padding: 6px; background-color:rgba(222,222,222,0.8); color: rgba(129,129,129,1.00)
+}
+#cam-nhan .noi-dung img{
+	width: 80px;height: 80px
+}
+#cam-nhan .noi-dung{
+	padding: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center
+}
+#news a{
+	text-decoration: none
+}
+#news a:hover{
+	color: #FFC113
+}
+#new .container{
+	background-color: rgba(255,255,255,0.8)
+}
+.text-do{
+	color: red
+}
+.text-den{
+	color: #363636
+}
+.form-control{
+	width: 100%
+}
+#myphuoc{
+	width: 100%; min-height: 400px; background: url("../images/pageheader.png"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
